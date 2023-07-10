@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, 'Helvetica Neue', sans-serif;
+}
+
+.top, footer{
+    background-color: #1f2937;
+    padding: 20px;
+}
+button{
+    padding: 5px 32px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size:18px;
+}
+
+header{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header h3{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    padding: 15px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.intro{
+    display: flex;
+    margin:0 auto 2%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero, .intro img{
+    width: 500px;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: #dfdfdf;
+}
+
+.hero button{
+    background-color: rgb(74, 30, 231);
+    color: #f9faf8;
+}
+
+.information{
+    padding-bottom: 80px;
+    background-color: #f9faf8;
+}
+
+.information h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#info{
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:28px;
+    flex-wrap: wrap;
+}
+
+.container img{
+    padding: 5px 0;
+    border: 4px solid rgb(74, 30, 231);
+    border-radius: 5%;
+    object-fit: fill;
+    width:200px;
+}
+
+.container p{
+    text-align: center;
+    color:#1f2937;
+    padding: 3px;
+    width:210px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937; 
+    padding:80px; 
+}
+
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote p:nth-of-type(1){
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width:720px;
+}
+
+#quote p:nth-of-type(2){
+    padding-right:80px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact{
+    background-color: #f9faf8;
+    padding: 80px;
+}
+
+#contact{
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(74, 30, 231);
+    border-radius: 5px;
+    width:800px;
+    height:110px;
+    color: #f9faf8;
+}
+
+#contact button{
+    border: 1px solid #f9faf8;
+    background-color: inherit;
+    color:#f9faf8;
+}
+
+footer{
+    text-align: center;
+    color: #f9faf8;
+}
